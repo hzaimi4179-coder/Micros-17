@@ -1,0 +1,18 @@
+{
+  "name": "json-xml-protobuf-lab",
+  "version": "1.0.0",
+  "description": "## Aperçu Ce lab montre comment : * Créer une petite liste d’employés en JavaScript. * Sérialiser cette liste en JSON, XML et Protobuf. * Sauvegarder chaque format dans un fichier. * Comparer la taille des fichiers pour comprendre l’intérêt de Protobuf. À la fin, il devient clair pourquoi gRPC préfère Protocol Buffers à JSON ou XML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "protobufjs": "^8.0.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {}
+}
